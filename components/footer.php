@@ -23,7 +23,7 @@
 
         <ul class="list">
             <li>
-                <a href="../index.php">Home</a>
+                <a href="#">Home</a>
             </li>
 
             <li>
@@ -31,7 +31,7 @@
             </li>
 
             <li>
-                <a href="#">Contact us</a>
+                <a href="./routes/contactus.php">Contact us</a>
             </li>
         </ul>
 
