@@ -1,0 +1,123 @@
+/* Targetting the navbar */
+#nav{
+    /* overflow: visible; */
+}
+
+
+/* targetting the intro */
+
+
+.intro{
+    /* height: 370px; */
+    min-height: 18rem;
+    width: 100%;
+    /* border: 2px solid black; */
+
+    /* allying display property grid */
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    width: 100%; */
+}
+
+.about{
+    padding: 10px;
+    
+}
+
+.abt{
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+.typed-out{
+    margin-left: 3.5rem;
+}
+
+/* intro animation{ */
+    
+    .cont{
+        display: inline-block;
+      }
+      .typed-out{
+        overflow: hidden;
+        border-right: .15em solid orange;
+        white-space: nowrap;
+        animation: typing 1s steps(20, end) forwards, blinking .8s infinite;
+        font-size: 1.6rem;
+        width: 0;
+      }
+      @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
+      @keyframes blinking {
+        from { border-color: transparent }
+        to { border-color: orange; }
+      }
+
+
+
+.blog{
+    /* height: 500px; */
+    /* height: 32rem; */
+    min-height: 5rem;
+    width: 100%;
+    /* border: 2px solid red; */
+    /* position: relative !important; */
+}
+
+.mainsection{
+    /* border: 2px solid red; */
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+/* Targeting the main blog section */
+
+.mainsection{
+    padding: 1rem;
+    min-height: 5rem;
+}
+
+
+
+
+
+/* Targetting blog area */
+
+.about{
+    /* border: 2px solid green; */
+    height: 17rem;
+}
+
+.pic{
+    /* border: 2px solid green; */
+    height: 17rem;
+}
+
+/* targeting the logo */
+#logo{
+    height: 12rem;
+    width: 12rem;
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+ 
+}
+
+#logo:hover{
+    box-shadow: 6px 6px silver;
+}
